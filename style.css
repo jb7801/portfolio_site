@@ -1,0 +1,443 @@
+body{
+/*    background-image: url("green.png");*/
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fff6e3;
+}
+
+h1{
+    font-weight: 500;
+    font-family: 'DM Serif Display', serif;
+}
+
+h2{
+    margin-left: 7%;
+    font-weight: 400;
+    font-size: 5vh;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+h3 {
+    font-size: 2.8vh;
+}
+li{
+    font-size: 2vh;
+}
+
+
+.topBar{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    padding-left: 80px;
+    font-weight: 400;
+    color: #000;
+    font-size:4.2vh;
+    text-decoration: none;
+}
+
+.navBar{
+
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.9vh;
+    display: flex;
+    text-align: left;
+    margin-right: 90px;
+    line-height: 0%;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+
+
+.nbItem{
+    color: #000;
+    padding: 30px;
+    text-decoration: none;
+}
+
+
+.dropdown {
+    padding-top: 30px;
+    position: relative;
+
+}
+  
+.dropdown-content {
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    background-color: rgb(224, 217, 200, 0.7);
+    min-width: 200px;
+    left: 10px;
+}
+  
+.dropdown-content a {
+    color: rgb(0,0,0);
+    padding: 12px 18px;
+    font-size:1.2vh;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* HOME PAGE  */
+.indexBlurb {
+    line-height: 5vh;
+    display: flex;
+    justify-content: center;
+    font-size: 2.8vh;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+.meSec{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.mePic {
+    height: 40vh;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5%;
+
+}
+
+/* SKILLS PAGE  */
+.courseGallery {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 300;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.course {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    margin: 4vh;
+    width: 16%;
+    height: 12vh;
+    cursor: pointer; 
+    border-radius: 10px;
+}
+
+.courseBlurb {
+    display: none; 
+    font-size: 2.2vh;
+    position: absolute; 
+    text-align: center;
+    padding: 20%;
+    top: -35px;
+    width: 100%;
+    height: 20vh;
+    color: #fff6e3 ;
+    border-radius: 10px;
+   
+}
+
+.course:hover .courseBlurb {
+    display: block; 
+}
+
+.green {
+    background-color: rgba(108, 156, 98, 0.5); /* green with transparency */
+}
+
+.blue {
+    background-color: rgba(111, 125, 214, 0.5); /* blue with transparency */
+}
+
+.purple {
+    background-color: rgba(97, 65, 135, 0.5); /* purple with transparency */
+}
+
+.pink {
+    background-color: rgba(215, 133, 174, 0.5); /* pink with transparency */
+}
+
+.greenBlurb {
+    background-color: rgb(108, 156, 98); /* solid green */
+}
+
+.blueBlurb {
+    background-color: rgb(111, 125, 214); /* solid blue */
+}
+
+.purpleBlurb {
+    background-color: rgb(97, 65, 135); /* solid purple */
+}
+
+.pinkBlurb {
+    background-color: rgb(215, 133, 174); /* solid pink */
+}
+
+.greenHighlight{
+  background: linear-gradient( to bottom, transparent 50%, rgba(108, 156, 98, 0.5));
+  border-radius: 5px;
+}
+
+.blueHighlight {
+
+    background: linear-gradient(to bottom, transparent 50%, rgba(111, 125, 214, 0.5));
+    border-radius: 5px;
+}
+
+.purpleHighlight {
+    background: linear-gradient(to bottom, transparent 50%, rgba(97, 65, 135, 0.5));
+    border-radius: 5px;
+}
+
+.pinkHighlight {
+    background: linear-gradient(to bottom, transparent 50%, rgba(215, 133, 174, 0.5));
+    border-radius: 5px;
+
+}
+
+
+.moreSkills{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.skillSec{
+    display: flex;
+    flex-direction: column;
+}
+.langGallery{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 0;
+    padding: 3%;
+    font-weight: 300;
+}
+
+.firstGal{
+    background-color: #f2e488;
+
+}
+.secondGal{
+    background-color: #f2bf88;
+}
+.fa-brands{
+    margin-left: 20%;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 2.2vh;
+    font-weight: 300;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    width: 6em;
+    border-radius: 60%;
+}
+
+.projSubtitle{
+    margin-left: 7%;
+}
+
+
+.compArch {
+    display: flex;
+    justify-content: center; 
+    padding-top: 3%;
+    margin-left: 10%;
+}
+
+.projInfo{
+    margin-left: 10%;
+    padding-right: 10%;
+}
+
+.asmPic{
+    width: 50%;
+    height:50%;
+    object-fit: cover;
+}
+
+.ct{
+    margin-top: 10%;
+
+}
+
+.vip{
+    display: flex;
+    justify-content: space-around ;
+    flex-flow: row;
+    padding: 1%;
+    margin: 5%;
+}
+.vipInfo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 30%; 
+    text-align: center; 
+}
+
+.vipBlurb{
+    font-size: 2.3vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.post{
+
+    width: 350px;
+    height: 350px;
+    cursor: pointer; 
+}
+
+
+
+.DS{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-left: 5% ;
+    padding-right:10% ;
+    padding-bottom: 5%;
+
+}
+
+.projInfo{
+    max-width: 40%;
+    font-size: 2.5vh;
+
+}
+
+.daniPic{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+/* INTEREST PAGE */
+
+.intro{
+    font-size: 4.8vh ;
+    margin-left: 15%;
+    text-align: center;
+    max-width: 70%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+
+}
+.lastReadTitle{
+    margin-left: 7%;
+}
+
+.lastRead{
+    margin-left: 3%;
+    max-width: 70%;
+    font-size: 3vh;
+    line-height: 4vh;
+}
+.bookInfo{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+}
+
+.bookStuff{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.rating{
+    width: 50%;
+    height:20%;
+    object-fit: cover;
+}
+
+.book{
+    width: 22%;
+    height:22%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-right: 18%;
+
+}
+.baking{
+    margin-left: 7%;
+
+}
+.cake{
+    display: flex;
+    justify-content: space-around;
+}
+.cakeInfo{
+    margin-right: 5%;
+    margin-left: 7%;
+}
+.cakeImg{
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    margin-right: 10%;
+    padding-top: 3%;
+}
+.allIngr{
+    display: flex;
+    padding: 2%;
+    border: 1px solid;
+    margin-bottom: 4%;
+
+}
+
+.ingr{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3.5%;
+    fon
+}
+
+.doggo{
+    width: 20%;
+    height:20%;
+    object-fit: cover;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+
+}
+
+.dogs{
+    display: flex;
+    justify-content: center;
+}
+

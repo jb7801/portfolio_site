@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jenesis Blancaflor</title>
+</head>
+
+<body> 
+    <nav> 
+        <h1> <a class="name" href="index.html">Jenesis Blancaflor </h1>
+        <div class = "navbar">
+            <a class = "nb" href="projects.html">Projects</a>
+            <a class = "nb"href="skills.html">Skills</a>
+            <a class = "nb"href="interests.html">Interests</a>
+            <div class="dropdown">
+                <a class="nb">Contact Me</a>
+                <div class="dropdown-content">
+                    <a > <i class="fa fa-envelope"></i>  jenesisblancaflor@gmail.com</a>
+                    <a href= "https://www.linkedin.com/in/jenesisblancaflor/"><i class="fab fa-linkedin"></i> Jenesis Blancaflor</a>
+                    <a href="https://github.com/jenesisblancaflor"><i class="fab fa-github"></i>  jenesisblancaflor</a>
+                    <a href="https://www.instagram.com/jenesis.b"><i class="fab fa-instagram"></i>  jenesis.b</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
